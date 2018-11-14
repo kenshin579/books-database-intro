@@ -15,7 +15,7 @@ CREATE TABLE 고객 (
 CREATE TABLE 제품 (
   제품번호 CHAR(3) NOT NULL,
   제품명 VARCHAR(20),
-  제고량 INT,
+  재고량 INT,
   단가 INT,
   제조업체 VARCHAR(20),
   PRIMARY KEY (제품번호),
